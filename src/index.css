@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: larger;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  height: 90px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo {
+  max-width: 150px;
+}
+
+nav,
+section {
+  padding: 20px 36px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.hero-img {
+  max-width: 680px;
+  align-self: center;
+}
+
+.hero-header {
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+.hero-text {
+  margin-top: 0;
+  font-size: 1.2em;
+}
+
+.card-section {
+  width: 180px;
+  font: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+  overflow-x: auto;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card-img {
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+}
+
+.card-star {
+  width: 8%;
+}
+
+.card-rating span {
+  padding-left: 5px;
+}
+
+.card-rating .grey {
+  color: #918E9B;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-section .bold {
+  font-weight: bold;
+}
+
+.card-price {
+  margin-top: auto;
+}
+
+.card-badge {
+  position: absolute;
+  background-color: white;
+  opacity: 0.7;
+  top: 4px;
+  right: 4px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  font-size: 14px;
+  
 }
