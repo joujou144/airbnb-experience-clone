@@ -1,4 +1,6 @@
-# Scrimba Project - Airbnb Experience page clone with React
+## Acknowledgement
+
+### `Scrimba Project - Airbnb Experience page clone with React`
 
 This is a part of Frontend Developer Career Path course project from module 11 React Basics by [Scrimba](https://scrimba.com/learn/frontend)
 
@@ -18,15 +20,11 @@ Built with:
 
 ## Demo
 
-https://joujou144.github.io/airbnb-experience-clone/
+![demo](demo.gif "Demo")
 
 ## Created with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 
