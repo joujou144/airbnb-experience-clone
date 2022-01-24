@@ -20,7 +20,7 @@ Built with:
 
 ## Demo
 
-![demo](demo.gif "Demo")
+![demo](demo.gif)
 
 ## Created with Create React App
 
