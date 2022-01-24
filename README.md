@@ -10,11 +10,11 @@ In this project a Airbnb-inspired experience page for mobile was created to lear
 
 Built with:
 
-- props
-- Data Flow through Props
-- Array maps with JSX to create mutiple comp0nents with different data
-- Conditioning on HTML elements according to props Data
-- create-react-app installation to create a react project from scratch
+- [x] props
+- [x] Data Flow through Props
+- [x] Array maps with JSX to create mutiple comp0nents with different data
+- [x] Conditioning on HTML elements according to props Data
+- [x] create-react-app installation to create a react project from scratch
 
 ## Demo
 
